@@ -198,7 +198,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.Alignment.centered:member",
-                  "docComment": "/**\n * Alignment to the center.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Alignment to the center.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -219,7 +219,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.Alignment.justified:member",
-                  "docComment": "/**\n * Fully justified alignment.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Fully justified alignment.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -240,7 +240,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.Alignment.left:member",
-                  "docComment": "/**\n * Alignment to the left.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Alignment to the left.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -261,7 +261,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.Alignment.mixed:member",
-                  "docComment": "/**\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -282,7 +282,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.Alignment.right:member",
-                  "docComment": "/**\n * Alignment to the right.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Alignment to the right.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -303,7 +303,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.Alignment.unknown:member",
-                  "docComment": "/**\n * Unknown alignment.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Unknown alignment.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -335,7 +335,7 @@
                 {
                   "kind": "Reference",
                   "text": "OfficeExtension.ClientObject",
-                  "canonicalReference": "office!OfficeExtension.ClientObject:class"
+                  "canonicalReference": "word!OfficeExtension.ClientObject:class"
                 },
                 {
                   "kind": "Content",
@@ -470,7 +470,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.ClientResult",
-                      "canonicalReference": "office!OfficeExtension.ClientResult:class"
+                      "canonicalReference": "word!OfficeExtension.ClientResult:class"
                     },
                     {
                       "kind": "Content",
@@ -504,7 +504,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.ClientResult",
-                      "canonicalReference": "office!OfficeExtension.ClientResult:class"
+                      "canonicalReference": "word!OfficeExtension.ClientResult:class"
                     },
                     {
                       "kind": "Content",
@@ -1466,7 +1466,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.UpdateOptions",
-                      "canonicalReference": "office!OfficeExtension.UpdateOptions:interface"
+                      "canonicalReference": "word!OfficeExtension.UpdateOptions:interface"
                     },
                     {
                       "kind": "Content",
@@ -1723,7 +1723,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.BreakType.line:member",
-                  "docComment": "/**\n * Line break.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Line break.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -1744,7 +1744,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.BreakType.next:member",
-                  "docComment": "/**\n * Warning: next has been deprecated. Use sectionNext instead.\n *\n *  *\n * [Api set: WordApi 1.1]\n *\n * @deprecated\n *\n * Use sectionNext instead.\n */\n",
+                  "docComment": "/**\n * Warning: next has been deprecated. Use sectionNext instead.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n *\n * @deprecated\n *\n * Use sectionNext instead.\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -1765,7 +1765,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.BreakType.page:member",
-                  "docComment": "/**\n * Page break at the insertion point.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Page break at the insertion point.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -1786,7 +1786,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.BreakType.sectionContinuous:member",
-                  "docComment": "/**\n * New section without a corresponding page break.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * New section without a corresponding page break.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -1807,7 +1807,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.BreakType.sectionEven:member",
-                  "docComment": "/**\n * Section break with the next section beginning on the next even-numbered page. If the section break falls on an even-numbered page, Word leaves the next odd-numbered page blank.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Section break with the next section beginning on the next even-numbered page. If the section break falls on an even-numbered page, Word leaves the next odd-numbered page blank.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -1828,7 +1828,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.BreakType.sectionNext:member",
-                  "docComment": "/**\n * Section break on next page.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Section break on next page.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -1849,7 +1849,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.BreakType.sectionOdd:member",
-                  "docComment": "/**\n * Section break with the next section beginning on the next odd-numbered page. If the section break falls on an odd-numbered page, Word leaves the next even-numbered page blank.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Section break with the next section beginning on the next odd-numbered page. If the section break falls on an odd-numbered page, Word leaves the next even-numbered page blank.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -1881,7 +1881,7 @@
                 {
                   "kind": "Reference",
                   "text": "OfficeExtension.ClientObject",
-                  "canonicalReference": "office!OfficeExtension.ClientObject:class"
+                  "canonicalReference": "word!OfficeExtension.ClientObject:class"
                 },
                 {
                   "kind": "Content",
@@ -2175,7 +2175,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.ClientResult",
-                      "canonicalReference": "office!OfficeExtension.ClientResult:class"
+                      "canonicalReference": "word!OfficeExtension.ClientResult:class"
                     },
                     {
                       "kind": "Content",
@@ -2209,7 +2209,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.ClientResult",
-                      "canonicalReference": "office!OfficeExtension.ClientResult:class"
+                      "canonicalReference": "word!OfficeExtension.ClientResult:class"
                     },
                     {
                       "kind": "Content",
@@ -3258,7 +3258,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.UpdateOptions",
-                      "canonicalReference": "office!OfficeExtension.UpdateOptions:interface"
+                      "canonicalReference": "word!OfficeExtension.UpdateOptions:interface"
                     },
                     {
                       "kind": "Content",
@@ -3601,7 +3601,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.ContentControlAppearance.boundingBox:member",
-                  "docComment": "/**\n * Represents a content control shown as a shaded rectangle or bounding box (with optional title).\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Represents a content control shown as a shaded rectangle or bounding box (with optional title).\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -3622,7 +3622,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.ContentControlAppearance.hidden:member",
-                  "docComment": "/**\n * Represents a content control that is not shown.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Represents a content control that is not shown.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -3643,7 +3643,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.ContentControlAppearance.tags:member",
-                  "docComment": "/**\n * Represents a content control shown as start and end markers.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Represents a content control shown as start and end markers.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -3675,7 +3675,7 @@
                 {
                   "kind": "Reference",
                   "text": "OfficeExtension.ClientObject",
-                  "canonicalReference": "office!OfficeExtension.ClientObject:class"
+                  "canonicalReference": "word!OfficeExtension.ClientObject:class"
                 },
                 {
                   "kind": "Content",
@@ -4049,7 +4049,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.LoadOption",
-                      "canonicalReference": "office!OfficeExtension.LoadOption:interface"
+                      "canonicalReference": "word!OfficeExtension.LoadOption:interface"
                     },
                     {
                       "kind": "Content",
@@ -4198,7 +4198,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.ContentControlType.buildingBlockGallery:member",
-                  "docComment": "/**\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -4219,7 +4219,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.ContentControlType.checkBox:member",
-                  "docComment": "/**\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -4240,7 +4240,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.ContentControlType.comboBox:member",
-                  "docComment": "/**\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -4261,7 +4261,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.ContentControlType.datePicker:member",
-                  "docComment": "/**\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -4282,7 +4282,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.ContentControlType.dropDownList:member",
-                  "docComment": "/**\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -4303,7 +4303,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.ContentControlType.picture:member",
-                  "docComment": "/**\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -4324,7 +4324,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.ContentControlType.plainText:member",
-                  "docComment": "/**\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -4345,7 +4345,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.ContentControlType.plainTextInline:member",
-                  "docComment": "/**\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -4366,7 +4366,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.ContentControlType.plainTextParagraph:member",
-                  "docComment": "/**\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -4387,7 +4387,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.ContentControlType.repeatingSection:member",
-                  "docComment": "/**\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -4408,7 +4408,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.ContentControlType.richText:member",
-                  "docComment": "/**\n * Identifies a rich text content control.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Identifies a rich text content control.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -4429,7 +4429,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.ContentControlType.richTextInline:member",
-                  "docComment": "/**\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -4450,7 +4450,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.ContentControlType.richTextParagraphs:member",
-                  "docComment": "/**\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -4471,7 +4471,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.ContentControlType.richTextTable:member",
-                  "docComment": "/**\n * Contains a whole table.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Contains a whole table.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -4492,7 +4492,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.ContentControlType.richTextTableCell:member",
-                  "docComment": "/**\n * Contains a whole cell.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Contains a whole cell.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -4513,7 +4513,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.ContentControlType.richTextTableRow:member",
-                  "docComment": "/**\n * Contains a whole row.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Contains a whole row.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -4534,7 +4534,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.ContentControlType.unknown:member",
-                  "docComment": "/**\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -4566,7 +4566,7 @@
                 {
                   "kind": "Reference",
                   "text": "OfficeExtension.ClientObject",
-                  "canonicalReference": "office!OfficeExtension.ClientObject:class"
+                  "canonicalReference": "word!OfficeExtension.ClientObject:class"
                 },
                 {
                   "kind": "Content",
@@ -4937,7 +4937,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.UpdateOptions",
-                      "canonicalReference": "office!OfficeExtension.UpdateOptions:interface"
+                      "canonicalReference": "word!OfficeExtension.UpdateOptions:interface"
                     },
                     {
                       "kind": "Content",
@@ -5298,7 +5298,7 @@
                 {
                   "kind": "Reference",
                   "text": "OfficeExtension.ClientObject",
-                  "canonicalReference": "office!OfficeExtension.ClientObject:class"
+                  "canonicalReference": "word!OfficeExtension.ClientObject:class"
                 },
                 {
                   "kind": "Content",
@@ -5661,7 +5661,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.UpdateOptions",
-                      "canonicalReference": "office!OfficeExtension.UpdateOptions:interface"
+                      "canonicalReference": "word!OfficeExtension.UpdateOptions:interface"
                     },
                     {
                       "kind": "Content",
@@ -6004,7 +6004,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.HeaderFooterType.evenPages:member",
-                  "docComment": "/**\n * Returns all headers or footers on even-numbered pages of a section.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Returns all headers or footers on even-numbered pages of a section.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -6025,7 +6025,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.HeaderFooterType.firstPage:member",
-                  "docComment": "/**\n * Returns the header or footer on the first page of a section.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Returns the header or footer on the first page of a section.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -6046,7 +6046,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.HeaderFooterType.primary:member",
-                  "docComment": "/**\n * Returns the header or footer on all pages of a section, but excludes the first page or even pages if they are different.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Returns the header or footer on all pages of a section, but excludes the first page or even pages if they are different.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -6078,7 +6078,7 @@
                 {
                   "kind": "Reference",
                   "text": "OfficeExtension.ClientObject",
-                  "canonicalReference": "office!OfficeExtension.ClientObject:class"
+                  "canonicalReference": "word!OfficeExtension.ClientObject:class"
                 },
                 {
                   "kind": "Content",
@@ -6182,7 +6182,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.ClientResult",
-                      "canonicalReference": "office!OfficeExtension.ClientResult:class"
+                      "canonicalReference": "word!OfficeExtension.ClientResult:class"
                     },
                     {
                       "kind": "Content",
@@ -6506,7 +6506,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.UpdateOptions",
-                      "canonicalReference": "office!OfficeExtension.UpdateOptions:interface"
+                      "canonicalReference": "word!OfficeExtension.UpdateOptions:interface"
                     },
                     {
                       "kind": "Content",
@@ -6732,7 +6732,7 @@
                 {
                   "kind": "Reference",
                   "text": "OfficeExtension.ClientObject",
-                  "canonicalReference": "office!OfficeExtension.ClientObject:class"
+                  "canonicalReference": "word!OfficeExtension.ClientObject:class"
                 },
                 {
                   "kind": "Content",
@@ -6918,7 +6918,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.LoadOption",
-                      "canonicalReference": "office!OfficeExtension.LoadOption:interface"
+                      "canonicalReference": "word!OfficeExtension.LoadOption:interface"
                     },
                     {
                       "kind": "Content",
@@ -7067,7 +7067,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.InsertLocation.after:member",
-                  "docComment": "/**\n * Add content after the contents of the calling object.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Add content after the contents of the calling object.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -7088,7 +7088,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.InsertLocation.before:member",
-                  "docComment": "/**\n * Add content before the contents of the calling object.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Add content before the contents of the calling object.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -7109,7 +7109,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.InsertLocation.end:member",
-                  "docComment": "/**\n * Append content to the contents of the calling object.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Append content to the contents of the calling object.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -7130,7 +7130,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.InsertLocation.replace:member",
-                  "docComment": "/**\n * Replace the contents of the current object.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Replace the contents of the current object.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -7151,7 +7151,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.InsertLocation.start:member",
-                  "docComment": "/**\n * Prepend content to the contents of the calling object.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Prepend content to the contents of the calling object.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -16125,7 +16125,7 @@
                 {
                   "kind": "Reference",
                   "text": "OfficeExtension.ClientObject",
-                  "canonicalReference": "office!OfficeExtension.ClientObject:class"
+                  "canonicalReference": "word!OfficeExtension.ClientObject:class"
                 },
                 {
                   "kind": "Content",
@@ -16348,7 +16348,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.ClientResult",
-                      "canonicalReference": "office!OfficeExtension.ClientResult:class"
+                      "canonicalReference": "word!OfficeExtension.ClientResult:class"
                     },
                     {
                       "kind": "Content",
@@ -16382,7 +16382,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.ClientResult",
-                      "canonicalReference": "office!OfficeExtension.ClientResult:class"
+                      "canonicalReference": "word!OfficeExtension.ClientResult:class"
                     },
                     {
                       "kind": "Content",
@@ -17564,7 +17564,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.UpdateOptions",
-                      "canonicalReference": "office!OfficeExtension.UpdateOptions:interface"
+                      "canonicalReference": "word!OfficeExtension.UpdateOptions:interface"
                     },
                     {
                       "kind": "Content",
@@ -17871,7 +17871,7 @@
                 {
                   "kind": "Reference",
                   "text": "OfficeExtension.ClientObject",
-                  "canonicalReference": "office!OfficeExtension.ClientObject:class"
+                  "canonicalReference": "word!OfficeExtension.ClientObject:class"
                 },
                 {
                   "kind": "Content",
@@ -18057,7 +18057,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.LoadOption",
-                      "canonicalReference": "office!OfficeExtension.LoadOption:interface"
+                      "canonicalReference": "word!OfficeExtension.LoadOption:interface"
                     },
                     {
                       "kind": "Content",
@@ -18202,7 +18202,7 @@
                 {
                   "kind": "Reference",
                   "text": "OfficeExtension.ClientObject",
-                  "canonicalReference": "office!OfficeExtension.ClientObject:class"
+                  "canonicalReference": "word!OfficeExtension.ClientObject:class"
                 },
                 {
                   "kind": "Content",
@@ -18366,7 +18366,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.ClientResult",
-                      "canonicalReference": "office!OfficeExtension.ClientResult:class"
+                      "canonicalReference": "word!OfficeExtension.ClientResult:class"
                     },
                     {
                       "kind": "Content",
@@ -18400,7 +18400,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.ClientResult",
-                      "canonicalReference": "office!OfficeExtension.ClientResult:class"
+                      "canonicalReference": "word!OfficeExtension.ClientResult:class"
                     },
                     {
                       "kind": "Content",
@@ -19262,7 +19262,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.UpdateOptions",
-                      "canonicalReference": "office!OfficeExtension.UpdateOptions:interface"
+                      "canonicalReference": "word!OfficeExtension.UpdateOptions:interface"
                     },
                     {
                       "kind": "Content",
@@ -19515,7 +19515,7 @@
                 {
                   "kind": "Reference",
                   "text": "OfficeExtension.ClientObject",
-                  "canonicalReference": "office!OfficeExtension.ClientObject:class"
+                  "canonicalReference": "word!OfficeExtension.ClientObject:class"
                 },
                 {
                   "kind": "Content",
@@ -19701,7 +19701,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.LoadOption",
-                      "canonicalReference": "office!OfficeExtension.LoadOption:interface"
+                      "canonicalReference": "word!OfficeExtension.LoadOption:interface"
                     },
                     {
                       "kind": "Content",
@@ -19846,7 +19846,7 @@
                 {
                   "kind": "Reference",
                   "text": "OfficeExtension.ClientRequestContext",
-                  "canonicalReference": "office!OfficeExtension.ClientRequestContext:class"
+                  "canonicalReference": "word!OfficeExtension.ClientRequestContext:class"
                 },
                 {
                   "kind": "Content",
@@ -19934,7 +19934,7 @@
                 {
                   "kind": "Reference",
                   "text": "OfficeExtension.ClientObject",
-                  "canonicalReference": "office!OfficeExtension.ClientObject:class"
+                  "canonicalReference": "word!OfficeExtension.ClientObject:class"
                 },
                 {
                   "kind": "Content",
@@ -20035,7 +20035,7 @@
                 {
                   "kind": "Reference",
                   "text": "OfficeExtension.ClientObject",
-                  "canonicalReference": "office!OfficeExtension.ClientObject:class"
+                  "canonicalReference": "word!OfficeExtension.ClientObject:class"
                 },
                 {
                   "kind": "Content",
@@ -20212,7 +20212,7 @@
                 {
                   "kind": "Reference",
                   "text": "OfficeExtension.ClientObject",
-                  "canonicalReference": "office!OfficeExtension.ClientObject:class"
+                  "canonicalReference": "word!OfficeExtension.ClientObject:class"
                 },
                 {
                   "kind": "Content",
@@ -20593,7 +20593,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.ClientRequestContext",
-                      "canonicalReference": "office!OfficeExtension.ClientRequestContext:class"
+                      "canonicalReference": "word!OfficeExtension.ClientRequestContext:class"
                     },
                     {
                       "kind": "Content",
@@ -20650,7 +20650,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.UpdateOptions",
-                      "canonicalReference": "office!OfficeExtension.UpdateOptions:interface"
+                      "canonicalReference": "word!OfficeExtension.UpdateOptions:interface"
                     },
                     {
                       "kind": "Content",
@@ -20789,7 +20789,7 @@
                 {
                   "kind": "Reference",
                   "text": "OfficeExtension.ClientObject",
-                  "canonicalReference": "office!OfficeExtension.ClientObject:class"
+                  "canonicalReference": "word!OfficeExtension.ClientObject:class"
                 },
                 {
                   "kind": "Content",
@@ -21208,7 +21208,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.UpdateOptions",
-                      "canonicalReference": "office!OfficeExtension.UpdateOptions:interface"
+                      "canonicalReference": "word!OfficeExtension.UpdateOptions:interface"
                     },
                     {
                       "kind": "Content",
@@ -21407,7 +21407,7 @@
                 {
                   "kind": "Reference",
                   "text": "OfficeExtension.ClientObject",
-                  "canonicalReference": "office!OfficeExtension.ClientObject:class"
+                  "canonicalReference": "word!OfficeExtension.ClientObject:class"
                 },
                 {
                   "kind": "Content",
@@ -21593,7 +21593,7 @@
                     {
                       "kind": "Reference",
                       "text": "OfficeExtension.LoadOption",
-                      "canonicalReference": "office!OfficeExtension.LoadOption:interface"
+                      "canonicalReference": "word!OfficeExtension.LoadOption:interface"
                     },
                     {
                       "kind": "Content",
@@ -21742,7 +21742,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.SelectionMode.end:member",
-                  "docComment": "/**\n * The cursor is at the end of the selection (just after the end of the selected range).\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * The cursor is at the end of the selection (just after the end of the selected range).\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -21763,7 +21763,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.SelectionMode.select:member",
-                  "docComment": "/**\n * The entire range is selected.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * The entire range is selected.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -21784,7 +21784,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.SelectionMode.start:member",
-                  "docComment": "/**\n * The cursor is at the beginning of the selection (just before the start of the selected range).\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * The cursor is at the beginning of the selection (just before the start of the selected range).\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -21820,7 +21820,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.UnderlineType.dashLine:member",
-                  "docComment": "/**\n * A single dash underline.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * A single dash underline.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -21841,7 +21841,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.UnderlineType.dashLineHeavy:member",
-                  "docComment": "/**\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -21862,7 +21862,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.UnderlineType.dashLineLong:member",
-                  "docComment": "/**\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -21883,7 +21883,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.UnderlineType.dashLineLongHeavy:member",
-                  "docComment": "/**\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -21904,7 +21904,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.UnderlineType.dotDashLine:member",
-                  "docComment": "/**\n * An alternating dot-dash underline.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * An alternating dot-dash underline.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -21925,7 +21925,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.UnderlineType.dotDashLineHeavy:member",
-                  "docComment": "/**\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -21946,7 +21946,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.UnderlineType.dotLine:member",
-                  "docComment": "/**\n * Warning: dotLine has been deprecated.\n *\n *  *\n * [Api set: WordApi 1.1]\n *\n * @deprecated\n *\n * DotLine is no longer supported.\n */\n",
+                  "docComment": "/**\n * Warning: dotLine has been deprecated.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n *\n * @deprecated\n *\n * DotLine is no longer supported.\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -21967,7 +21967,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.UnderlineType.dotted:member",
-                  "docComment": "/**\n * A dotted underline.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * A dotted underline.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -21988,7 +21988,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.UnderlineType.dottedHeavy:member",
-                  "docComment": "/**\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -22009,7 +22009,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.UnderlineType.double:member",
-                  "docComment": "/**\n * A double underline.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * A double underline.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -22030,7 +22030,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.UnderlineType.hidden:member",
-                  "docComment": "/**\n * Warning: hidden has been deprecated.\n *\n *  *\n * [Api set: WordApi 1.1]\n *\n * @deprecated\n *\n * Hidden is no longer supported.\n */\n",
+                  "docComment": "/**\n * Warning: hidden has been deprecated.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n *\n * @deprecated\n *\n * Hidden is no longer supported.\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -22051,7 +22051,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.UnderlineType.mixed:member",
-                  "docComment": "/**\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -22072,7 +22072,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.UnderlineType.none:member",
-                  "docComment": "/**\n * No underline.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * No underline.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -22093,7 +22093,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.UnderlineType.single:member",
-                  "docComment": "/**\n * A single underline. This is the default value.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * A single underline. This is the default value.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -22114,7 +22114,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.UnderlineType.thick:member",
-                  "docComment": "/**\n * A single thick underline.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * A single thick underline.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -22135,7 +22135,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.UnderlineType.twoDotDashLine:member",
-                  "docComment": "/**\n * An alternating dot-dot-dash underline.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * An alternating dot-dot-dash underline.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -22156,7 +22156,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.UnderlineType.twoDotDashLineHeavy:member",
-                  "docComment": "/**\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -22177,7 +22177,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.UnderlineType.wave:member",
-                  "docComment": "/**\n * A single wavy underline.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * A single wavy underline.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -22198,7 +22198,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.UnderlineType.waveDouble:member",
-                  "docComment": "/**\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -22219,7 +22219,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.UnderlineType.waveHeavy:member",
-                  "docComment": "/**\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
@@ -22240,7 +22240,7 @@
                 {
                   "kind": "EnumMember",
                   "canonicalReference": "word!Word.UnderlineType.word:member",
-                  "docComment": "/**\n * Only underline individual words.\n *\n *  *\n * [Api set: WordApi 1.1]\n */\n",
+                  "docComment": "/**\n * Only underline individual words.\n *\n * @remarks\n *\n * [Api set: WordApi 1.1]\n */\n",
                   "excerptTokens": [
                     {
                       "kind": "Content",
