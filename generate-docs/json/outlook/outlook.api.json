@@ -20391,6 +20391,43 @@
                 },
                 {
                   "kind": "Enum",
+                  "canonicalReference": "outlook!Office.MailboxEnums.SendModeOverride:enum",
+                  "docComment": "/**\n * Specifies the {@link https://learn.microsoft.com/office/dev/add-ins/outlook/smart-alerts-onmessagesend-walkthrough#available-send-mode-options | send mode option} that overrides the option set in the manifest at runtime.\n *\n * For information on how to implement a Smart Alerts add-in, see {@link https://learn.microsoft.com/office/dev/add-ins/outlook/smart-alerts-onmessagesend-walkthrough | Use Smart Alerts and the OnMessageSend and OnAppointmentSend events in your Outlook add-in}.\n *\n * @remarks\n *\n * [Api set: Mailbox preview]\n *\n * **{@link https://learn.microsoft.com/office/dev/add-ins/outlook/outlook-add-ins-overview#extension-points | Applicable Outlook mode}**: Compose\n *\n * @beta\n */\n",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "enum SendModeOverride "
+                    }
+                  ],
+                  "releaseTag": "Beta",
+                  "name": "SendModeOverride",
+                  "preserveMemberOrder": false,
+                  "members": [
+                    {
+                      "kind": "EnumMember",
+                      "canonicalReference": "outlook!Office.MailboxEnums.SendModeOverride.PromptUser:member",
+                      "docComment": "/**\n * Provides the **Send Anyway** option in a Smart Alerts dialog when the mail item doesn't meet the conditions of the event-based add-in. To learn more, see the {@link https://learn.microsoft.com/office/dev/add-ins/outlook/smart-alerts-onmessagesend-walkthrough#prompt-user | **prompt user** send mode option}.\n *\n * @beta\n */\n",
+                      "excerptTokens": [
+                        {
+                          "kind": "Content",
+                          "text": "PromptUser = "
+                        },
+                        {
+                          "kind": "Content",
+                          "text": "\"promptUser\""
+                        }
+                      ],
+                      "initializerTokenRange": {
+                        "startIndex": 1,
+                        "endIndex": 2
+                      },
+                      "releaseTag": "Beta",
+                      "name": "PromptUser"
+                    }
+                  ]
+                },
+                {
+                  "kind": "Enum",
                   "canonicalReference": "outlook!Office.MailboxEnums.SourceProperty:enum",
                   "docComment": "/**\n * Specifies the source of the selected data in an item (see `Office.mailbox.item.getSelectedDataAsync` for details).\n *\n * @remarks\n *\n * [Api set: Mailbox 1.2]\n *\n * **{@link https://learn.microsoft.com/office/dev/add-ins/outlook/outlook-add-ins-overview#extension-points | Applicable Outlook mode}**: Compose\n */\n",
                   "excerptTokens": [
@@ -33414,6 +33451,87 @@
                 },
                 {
                   "kind": "PropertySignature",
+                  "canonicalReference": "outlook!Office.SmartAlertsEventCompletedOptions#cancelLabel:member",
+                  "docComment": "/**\n * When you use the {@link Office.MailboxEvent.completed | completed method} to signal completion of an event handler, this property customizes the text of the **Don't Send** button in the Smart Alerts dialog. Custom text must be 20 characters or less.\n *\n * For an example, see the {@link https://learn.microsoft.com/office/dev/add-ins/outlook/smart-alerts-onmessagesend-walkthrough#customize-the-dont-send-button-optional-preview | Smart Alerts walkthrough}.\n *\n * @remarks\n *\n * [Api set: Mailbox preview]\n *\n * **{@link https://learn.microsoft.com/office/dev/add-ins/outlook/understanding-outlook-add-in-permissions | Minimum permission level (Outlook)}**: **restricted**\n *\n * **{@link https://learn.microsoft.com/office/dev/add-ins/outlook/outlook-add-ins-overview#extension-points | Applicable Outlook mode}**: Compose\n *\n * @beta\n */\n",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "cancelLabel?: "
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "string"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ";"
+                    }
+                  ],
+                  "isReadonly": false,
+                  "isOptional": true,
+                  "releaseTag": "Beta",
+                  "name": "cancelLabel",
+                  "propertyTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  }
+                },
+                {
+                  "kind": "PropertySignature",
+                  "canonicalReference": "outlook!Office.SmartAlertsEventCompletedOptions#commandId:member",
+                  "docComment": "/**\n * When you use the {@link Office.MailboxEvent.completed | completed method} to signal completion of an event handler, this property specifies the ID of the task pane that opens when the **Don't Send** button is selected from the Smart Alerts dialog.\n *\n * For an example, see the {@link https://learn.microsoft.com/office/dev/add-ins/outlook/smart-alerts-onmessagesend-walkthrough#customize-the-dont-send-button-optional-preview | Smart Alerts walkthrough}.\n *\n * @remarks\n *\n * [Api set: Mailbox preview]\n *\n * **{@link https://learn.microsoft.com/office/dev/add-ins/outlook/understanding-outlook-add-in-permissions | Minimum permission level (Outlook)}**: **restricted**\n *\n * **{@link https://learn.microsoft.com/office/dev/add-ins/outlook/outlook-add-ins-overview#extension-points | Applicable Outlook mode}**: Compose\n *\n * **Important**:\n *\n * The `commandId` value must match the task pane ID specified in the manifest of your add-in. The markup depends on the type of manifest your add-in uses.\n *\n * - **XML manifest**: The `id` attribute of the {@link https://learn.microsoft.com/javascript/api/manifest/control | Control} element representing the task pane.\n *\n * - **Unified manifest for Microsoft 365 (preview)**: The \"id\" property of the task pane command in the \"controls\" array.\n *\n * If you specify the `contextData` option in your `event.completed` call, you must also assign a task pane ID to the `commandId` option. Otherwise, the JSON data assigned to `contextData` is ignored.\n *\n * @beta\n */\n",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "commandId?: "
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "string"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ";"
+                    }
+                  ],
+                  "isReadonly": false,
+                  "isOptional": true,
+                  "releaseTag": "Beta",
+                  "name": "commandId",
+                  "propertyTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  }
+                },
+                {
+                  "kind": "PropertySignature",
+                  "canonicalReference": "outlook!Office.SmartAlertsEventCompletedOptions#contextData:member",
+                  "docComment": "/**\n * When you use the {@link Office.MailboxEvent.completed | completed method} to signal completion of an event handler, this property specifies any JSON data passed to the add-in for processing when the **Don't Send** button is selected from the Smart Alerts dialog.\n *\n * @remarks\n *\n * [Api set: Mailbox preview]\n *\n * **{@link https://learn.microsoft.com/office/dev/add-ins/outlook/understanding-outlook-add-in-permissions | Minimum permission level (Outlook)}**: **restricted**\n *\n * **{@link https://learn.microsoft.com/office/dev/add-ins/outlook/outlook-add-ins-overview#extension-points | Applicable Outlook mode}**: Compose\n *\n * **Important**: If you specify the `contextData` option in your `event.completed` call, you must also assign a task pane ID to the `commandId` option. Otherwise, the JSON data assigned to `contextData` is ignored.\n *\n * @beta\n */\n",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "contextData?: "
+                    },
+                    {
+                      "kind": "Content",
+                      "text": "object"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ";"
+                    }
+                  ],
+                  "isReadonly": false,
+                  "isOptional": true,
+                  "releaseTag": "Beta",
+                  "name": "contextData",
+                  "propertyTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 2
+                  }
+                },
+                {
+                  "kind": "PropertySignature",
                   "canonicalReference": "outlook!Office.SmartAlertsEventCompletedOptions#errorMessage:member",
                   "docComment": "/**\n * When you use the {@link Office.MailboxEvent.completed | completed method} to signal completion of an event handler and set its `allowEvent` property to `false`, this property sets the error message that will be displayed to the user. For an example, see the {@link https://learn.microsoft.com/office/dev/add-ins/outlook/smart-alerts-onmessagesend-walkthrough | Smart Alerts walkthrough}.\n *\n * @remarks\n *\n * [Api set: Mailbox 1.12]\n *\n * **{@link https://learn.microsoft.com/office/dev/add-ins/outlook/understanding-outlook-add-in-permissions | Minimum permission level (Outlook)}**: **restricted**\n *\n * **{@link https://learn.microsoft.com/office/dev/add-ins/outlook/outlook-add-ins-overview#extension-points | Applicable Outlook mode}**: Compose\n */\n",
                   "excerptTokens": [
@@ -33437,6 +33555,38 @@
                   "propertyTypeTokenRange": {
                     "startIndex": 1,
                     "endIndex": 2
+                  }
+                },
+                {
+                  "kind": "PropertySignature",
+                  "canonicalReference": "outlook!Office.SmartAlertsEventCompletedOptions#sendModeOverride:member",
+                  "docComment": "/**\n * When you use the {@link Office.MailboxEvent.completed | completed method} to signal completion of an event handler, this property overrides the {@link https://learn.microsoft.com/office/dev/add-ins/outlook/smart-alerts-onmessagesend-walkthrough#available-send-mode-options | send mode option} specified in the manifest at runtime.\n *\n * @remarks\n *\n * [Api set: Mailbox preview]\n *\n * **{@link https://learn.microsoft.com/office/dev/add-ins/outlook/understanding-outlook-add-in-permissions | Minimum permission level (Outlook)}**: **restricted**\n *\n * **{@link https://learn.microsoft.com/office/dev/add-ins/outlook/outlook-add-ins-overview#extension-points | Applicable Outlook mode}**: Compose\n *\n * **Important**: Currently, `sendModeOverride` can only be set to the {@link https://learn.microsoft.com/office/dev/add-ins/outlook/smart-alerts-onmessagesend-walkthrough#prompt-user | prompt user} option.\n *\n * @beta\n */\n",
+                  "excerptTokens": [
+                    {
+                      "kind": "Content",
+                      "text": "sendModeOverride?: "
+                    },
+                    {
+                      "kind": "Reference",
+                      "text": "CommonAPI.MailboxEnums.SendModeOverride",
+                      "canonicalReference": "!CommonAPI.MailboxEnums.SendModeOverride:type"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": " | string"
+                    },
+                    {
+                      "kind": "Content",
+                      "text": ";"
+                    }
+                  ],
+                  "isReadonly": false,
+                  "isOptional": true,
+                  "releaseTag": "Beta",
+                  "name": "sendModeOverride",
+                  "propertyTypeTokenRange": {
+                    "startIndex": 1,
+                    "endIndex": 3
                   }
                 }
               ],
